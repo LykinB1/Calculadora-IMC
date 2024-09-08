@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imcCalculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 800px;
+    background: orange;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.466);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 15px;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.IMCform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: auto;  
+    gap: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.form h3{
+    display: flex;
+    justify-content: end;
+    gap: 10%;
+    font-size: 24px;
+    width: 100%;
+}
+
+
+.IMCform input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.IMCform button {
+    height: 70px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    background: black;
+    font-size: 30px;
+    color: orange;
+    transition: 0.3s ease;
+}
+.IMCform button:hover{
+    color: rgb(192, 126, 4);
+    background: rgb(34, 33, 33);
+}
+
+#resultado{
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+    background:black;
+    color: orange;
+    font-size: 20px;
+    padding: 20px;
+}
+

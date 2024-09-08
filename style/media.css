@@ -1,0 +1,72 @@
+@media(max-width: 740px) {
+    .imcCalculator{
+        width: 400px;
+        height: 600px;
+    }
+
+    .header{
+        font-size: 14px;
+    }
+    
+    .IMCform {
+        gap: 15px;
+    }
+    .form{
+        gap: 20px;
+    }
+    
+    .form h3{
+        font-size: 18px;
+    }
+    .IMCform input{
+        width: 230px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .IMCform button {
+        height: 50px;
+        width: 250px;
+    }
+    
+    #resultado{
+        height: 190px;
+    }
+
+}
+
+
+@media(max-width: 440px) {
+    .imcCalculator{
+        width: 300px;
+        height: 500px;
+    }
+
+    .header{
+        font-size: 10px;
+    }
+    
+    .IMCform {
+        gap: 10px;
+    }
+    .form{
+        gap: 10px;
+    }
+    
+    .form h3{
+        font-size: 12px;
+    }
+    .IMCform input{
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .IMCform button {
+        height: 40px;
+        width: 200px;
+    }
+    
+    #resultado{
+        height: 120px;
+    }
+
+}
